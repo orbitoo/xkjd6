@@ -1,0 +1,81 @@
+﻿---
+name: xkjd6.ejxh
+version: "Q1"
+sort: original
+...
+
+# 有部分词在次选, 需要打开次选功能
+# 有 '#' 标记的词在次选位
+
+# 课程名
+数分	ejfno
+高代	gzdho
+解几	jdjkuu
+复分析	ffxu
+实变	ekbmo
+实分析	efxou
+常微	jpwwiu
+常微分	jwfi
+偏微	pmwwi
+偏微分	pwfi
+
+# 数学分析
+紧集	jbjkii
+空集	kyjk
+开集	khjkv
+闭集	bkjko
+闭球	bkqqo
+聚点	jldmv
+闭区间	bqjov
+开区间	kqjv
+偏导数	pdei
+满射	mfeea
+单射	dfeeo
+映上	ygepo
+纯函数	jhea
+旋度	xtdjo
+散度	sfdjv
+确界	qhjdv
+上确界	eqji
+下确界	xqjvv
+可积	kejk #
+可微	kewwuu
+可数	keejv
+不可数  bkevv
+有界	ydjdvi
+代换	dhhti
+流形	lqxgav
+幂级数	mjeo
+正项级数	qxjev
+数项级数	exjeo
+含参	hfcf
+
+# 复分析
+全纯	qtjwi
+
+# 实分析
+等势	drekui
+几乎处处	jhjju
+
+# 泛函分析
+等度	drdj
+赋范  fjffai
+
+# 线性代数
+负定	fjdgu
+子空间	zkja
+幂零	mklgo
+张量	qplxao
+
+# 抽象代数
+有理数	ylevv
+无理数	wlev
+四元数	syei
+交换群	jhqo
+
+# 射影几何
+对合	dbhe
+射影	eeygu
+配极	pwjk
+极线	jkxm #
+无穷远	wqyv
