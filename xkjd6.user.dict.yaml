@@ -3,7 +3,7 @@
 # 该文件以UTF-8编码保存
 ---
 name: xkjd6.user
-version: "Q1"
+version: "0.2023.4.2"
 sort: original
 ...
 # 编码各字段以制表符（Tab）分隔
@@ -13,7 +13,6 @@ sort: original
 # 示例 （记得把注释符号 # 去掉）：
 # 词组	bmmso
 
-厦大	xsdsv
-李华	lkhqvi
 你华	nkhqi
+你厦	nkxsiv
 
