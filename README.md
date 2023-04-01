@@ -25,6 +25,14 @@
 - fc
   - fco 这次
 
+- sx
+  - sxu 私信
+
+- yr
+  - yri 依然
+  - yro 炎热
+  - yrv 一人
+
 - yx
   - yxa 也许
   - yxo 影响
