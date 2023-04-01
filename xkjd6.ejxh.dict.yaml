@@ -5,7 +5,6 @@ sort: original
 ...
 
 # 有部分词在次选, 需要打开次选功能
-# 有 '#' 标记的词在次选位, 但目前暂时不能生效, 待修复
 
 # 课程名
 数分	ejfno
@@ -20,7 +19,7 @@ sort: original
 偏微分	pwfi
 
 # 数学分析
-紧集	jbjk #
+紧集	jbjk
 空集	kyjk
 开集	khjkv
 闭集	bkjko
@@ -38,7 +37,7 @@ sort: original
 确界	qhjdv
 上确界	eqji
 下确界	xqjvv
-可积  kejk #
+可积  kejk
 可微	kewwuu
 可数	keejv
 不可数  bkevv
@@ -79,5 +78,5 @@ sort: original
 对合	dbhe
 射影	eeygu
 配极	pwjk
-极线	jkxm #
+极线	jkxm
 无穷远	wqyv
