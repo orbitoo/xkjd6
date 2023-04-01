@@ -1,11 +1,11 @@
 ﻿---
 name: xkjd6.ejxh
-version: "Q1"
+version: "0.23.4.1"
 sort: original
 ...
 
 # 有部分词在次选, 需要打开次选功能
-# 有 '#' 标记的词在次选位
+# 有 '#' 标记的词在次选位, 但目前暂时不能生效, 待修复
 
 # 课程名
 数分	ejfno
@@ -20,7 +20,7 @@ sort: original
 偏微分	pwfi
 
 # 数学分析
-紧集	jbjkii
+紧集	jbjk #
 空集	kyjk
 开集	khjkv
 闭集	bkjko
@@ -30,7 +30,7 @@ sort: original
 开区间	kqjv
 偏导数	pdei
 满射	mfeea
-单射	dfeeo
+单射	dfeeou
 映上	ygepo
 纯函数	jhea
 旋度	xtdjo
@@ -38,13 +38,12 @@ sort: original
 确界	qhjdv
 上确界	eqji
 下确界	xqjvv
-可积	kejk #
+可积  kejk #
 可微	kewwuu
 可数	keejv
 不可数  bkevv
 有界	ydjdvi
 代换	dhhti
-流形	lqxgav
 幂级数	mjeo
 正项级数	qxjev
 数项级数	exjeo
@@ -60,6 +59,9 @@ sort: original
 # 泛函分析
 等度	drdj
 赋范  fjffai
+
+# 微分几何
+流形	lqxgav
 
 # 线性代数
 负定	fjdgu
