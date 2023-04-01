@@ -20,7 +20,7 @@ sort: original
 
 # 数学分析
 紧集	jbjk
-空集	kyjk
+空集	kyjko
 开集	khjkv
 闭集	bkjko
 闭球	bkqqo
@@ -37,7 +37,7 @@ sort: original
 确界	qhjdv
 上确界	eqji
 下确界	xqjvv
-可积  kejk
+可积	kejk
 可微	kewwuu
 可数	keejv
 不可数  bkevv
