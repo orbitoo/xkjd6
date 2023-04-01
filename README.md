@@ -50,14 +50,14 @@
 
 ### 词库调整
 
+- bkfru (null) -> 笔锋
+- mxbj (null) -> 蜜雪冰城
+- tsmn 她们 -> 它们
+- tsmna (null) -> 她们
+- tsmno 它们 -> (deleted)
 - qpgl 张果 -> 掌掴
 - qpgli 掌掴 -> 张果
 - yhto 益和堂 -> 益禾堂
-
-### 补充词
-
-- bkfru 笔锋
-- mxbj 蜜雪冰城
 
 ### 多音补充
 
