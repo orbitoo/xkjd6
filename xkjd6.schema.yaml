@@ -5,10 +5,10 @@ schema:
   schema_id: xkjd6
   name: 键道6
   version: "1"
-  author:
-    - 发明人 大牛
   dependencies:
     - xkjd6cx
+    - pinyin_simp
+    - liangfen
 
 
 # Layout config
@@ -149,6 +149,8 @@ engine:
   segmentors:
     - ascii_segmentor
     - matcher
+    - affix_segmentor@pinyin_simp
+    - affix_segmentor@quanpinerfen
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -159,6 +161,8 @@ engine:
     - table_translator@danzi_lookup
     - lua_translator@date_time_translator
     - lua_translator@number_translator
+    - script_translator@quanpinerfen
+    - script_translator@pinyin_simp
   filters:
     - uniquifier
     - simplifier@emoji_cn
@@ -168,6 +172,8 @@ engine:
     # - lua_filter@hint_filter
     - lua_filter@xkjd6_filter
     - reverse_lookup_filter@danzi_lookup
+    - reverse_lookup_filter@pinyin_simp_lookup
+    - reverse_lookup_filter@quanpinerfen_lookup
 
 
 speller:
@@ -250,6 +256,34 @@ reverse_lookup:
     - xform/^/〔/
     - xform/$/〕/
 
+pinyin_simp_lookup:
+  tags: [pinyin_simp]
+  dictionary: xkjd6cx #反查其码
+  overwrite_comment: true
+
+pinyin_simp:
+  tag: pinyin_simp
+  dictionary: pinyin_simp
+  enable_sentence: true
+  enable_completion: true
+  enable_user_dict: false
+  prefix: "u"
+  tips: "〔全拼〕"
+
+#↓二分反查方案
+quanpinerfen_lookup:
+  tags: [quanpinerfen]
+  dictionary: xkjd6cx #反查其码
+  overwrite_comment: true
+
+quanpinerfen:
+  tag: quanpinerfen
+  dictionary: liangfen
+  enable_sentence: true
+  enable_completion: true
+  enable_user_dict: false
+  prefix: "v"
+  tips: "〔二分〕"
 
 key_binder:
   bindings:
@@ -270,6 +304,8 @@ recognizer:
     pinyin: "(?<![`A-Z])`[a-z']*;?$"
     url: "^(www[.]|https?:|ftp:|mailto:).*$"
     english: "^'[A-Z|a-z]*'?$"
+    pinyin_simp: "^u[a-z']*'?$"
+    quanpinerfen: "^v[a-z']*'?$"
     jsq: "^=[^;']+$"
 
 
