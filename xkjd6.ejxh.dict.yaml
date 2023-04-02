@@ -1,6 +1,6 @@
 ﻿---
 name: xkjd6.ejxh
-version: "0.23.4.1"
+version: "0.23.4.2"
 sort: original
 ...
 
@@ -17,6 +17,7 @@ sort: original
 常微分	jwfi
 偏微	pmwwi
 偏微分	pwfi
+抽代	wddhi
 
 # 数学分析
 紧集	jbjk
@@ -72,6 +73,7 @@ sort: original
 有理数	ylevv
 无理数	wlev
 四元数	syei
+幺元	yzyta
 交换群	jhqo
 
 # 射影几何
@@ -80,3 +82,6 @@ sort: original
 配极	pwjk
 极线	jkxm
 无穷远	wqyv
+
+# 密码学
+密文	mkwno

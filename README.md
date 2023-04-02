@@ -51,15 +51,24 @@
 ### 词库调整
 
 - bkfru (null) -> 笔锋
+- gefei (null) -> 搁这
+- gens (null) -> 搁那
+- gzskoi (null) -> 高四
 - lkhqvi (null) -> 李华
+- lxrno (null) -> 良人
 - mxbj (null) -> 蜜雪冰城
+- tcqi (null) -> 提词器
+- tkcki (null) -> 提词
 - tsmn 她们 -> 它们
 - tsmna (null) -> 她们
 - tsmno 它们 -> (deleted)
 - qpgl 张果 -> 掌掴
 - qpgli 掌掴 -> 张果
+- wkjno (null) -> 痴嗔
 - xsdsv (null) -> 厦大
 - yhto 益和堂 -> 益禾堂
+- ykbf 一般 -> 一半
+- ykbfv 一半 -> 一般
 
 ### 多音补充
 
