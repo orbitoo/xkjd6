@@ -6,6 +6,12 @@ sort: original
 
 # 有部分词在次选, 需要打开次选功能
 
+# 通用词汇
+易证	ykqroo
+往证	wpqru
+欲证	ylqru
+互异	hjykv
+
 # 课程名
 数分	ejfno
 高代	gzdho
@@ -68,6 +74,8 @@ sort: original
 子空间	zkja
 幂零	mklgo
 张量	qplxao
+增广	zrgmv
+增广	zrgxv
 
 # 抽象代数
 有理数	ylevv
