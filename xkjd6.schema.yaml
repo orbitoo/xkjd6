@@ -222,11 +222,11 @@ t2tw:
 
 t2jp:
   opencc_config: t2jp.json
-  option_name: t2tw
+  option_name: t2jp
 
 t2hk:
   opencc_config: t2hk.json
-  option_name: t2tw
+  option_name: t2hk
 
 EN2en:
   opencc_config: EN2en.json
