@@ -8,6 +8,7 @@
 - 新增 ssb 词库, 规则为特殊的 ss 码加首字的 b 码, 可将特殊词的编码空间进一步扩大.
 - ssb 词库中增加了 ss 码的次选, 因 ss 码本就需要使用空格上屏, 加入次选不会增加码长.
 - 调整了默认词库, 优化了多种读法的词, 加入了一些常用的词.
+- 降低了 630 的全码的优先级, 让其它的码先出.
 - 加入了个人版本的数学词库.
 - 将 emoji 改为官方的 rime-emoji 仓库的版本, 手动转换到简体字版本, 将其添加为 `emoji_cn.json` 作为默认方案.
 - 为 emoji 增加菜单上的开关, 方便在手机上使用.
@@ -49,37 +50,6 @@
   - yxo 影响
   - yxu 印象
   - yxv 一些
-
-## 默认词库
-
-### 词库调整
-
-- bkfru (null) -> 笔锋
-- gefei (null) -> 搁这
-- gens (null) -> 搁那
-- gzskoi (null) -> 高四
-- lkhqvi (null) -> 李华
-- lxrno (null) -> 良人
-- mxbj (null) -> 蜜雪冰城
-- tcqi (null) -> 提词器
-- tkcki (null) -> 提词
-- tsmn 她们 -> 它们
-- tsmna (null) -> 她们
-- tsmno 它们 -> (deleted)
-- qpgl 张果 -> 掌掴
-- qpgli 掌掴 -> 张果
-- wkjno (null) -> 痴嗔
-- xsdsv (null) -> 厦大
-- yhto 益和堂 -> 益禾堂
-- ykbf 一般 -> 一半
-- ykbfv 一半 -> 一般
-- ylnk 淤泥 -> 与你
-- ylnkv 与你 -> 淤泥
-
-### 多音补充
-
-- pjgm* 曝光 (bzgm)
-- qpgg 掌掴 (qpgl)
 
 ## 反查
 
