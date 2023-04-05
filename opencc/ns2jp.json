@@ -1,10 +1,10 @@
 {
-    "name": "Simplified Chinese to Traditional Chinese",
+    "name": "Simplified Chinese to New Japanese Kanji (Shinjitai)",
     "segmentation": {
         "type": "mmseg",
         "dict": {
             "type": "text",
-            "file": "STPhrases.txt"
+            "file": "SJPPhrases.txt"
         }
     },
     "conversion_chain": [
@@ -14,11 +14,11 @@
                 "dicts": [
                     {
                         "type": "text",
-                        "file": "STPhrases.txt"
+                        "file": "SJPPhrases.txt"
                     },
                     {
                         "type": "text",
-                        "file": "STCharacters.txt"
+                        "file": "SJPCharacters.txt"
                     }
                 ]
             }
