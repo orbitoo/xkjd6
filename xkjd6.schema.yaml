@@ -45,12 +45,12 @@ switches:
     states: ["，。", ", ."]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: s2t
+  # - name: s2t
+  #   reset: 0
+  #   states: [ 简体, 繁體 ]
+  - options: [ zh, s2t, s2tw, s2hk, s2jp ]
     reset: 0
-    states: [ 简体, 繁體 ]
-  - options: [ zh, s2tw, s2hk, s2jp ]
-    reset: 0
-    states: [ 正, 台, 港, 新 ]
+    states: [ 简, 繁, 台, 港, 新 ]
   - name: sbb_hint
     reset: 1 # 改成0默认关闭
     states: [ "关₆₃₀", "开₆₃₀" ]
@@ -205,23 +205,23 @@ emoji_cn:
   option_name: emoji_cn
   tips: all
 
+zh:
+  option_name: zh
+
 s2t:
   opencc_config: s2t.json
   option_name: s2t
 
-zh:
-  option_name: zh
-
 s2tw:
-  opencc_config: s2twp.json
+  opencc_config: ns2twp.json
   option_name: s2tw
 
 s2jp:
-  opencc_config: s2jpp.json
+  opencc_config: ns2jpp.json
   option_name: s2jp
 
 s2hk:
-  opencc_config: s2hk.json
+  opencc_config: ns2hk.json
   option_name: s2hk
 
 EN2en:
